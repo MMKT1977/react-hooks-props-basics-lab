@@ -14,8 +14,7 @@ function App() {
     <div>
       <NavBar />
       <Home name={"Liza"} city={"New York"} color = {"firebrick"}/>
-      <About bio ="I made this!"github= "https://github.com/liza"
-         linkedin= "https://www.linkedin.com/in/liza/"/>
+      <About bio={user.bio} links={user.links} />
       
     </div>
   );
