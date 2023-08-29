@@ -4,8 +4,8 @@ function Links(props){
  return (
     <div>
         <h3>Links</h3>
-         <div> <a href="https://ke.linkedin.com/">{props.linkedin}</a></div> 
-          <div> <a href="https://github.com">{props.github}</a></div> 
+         <div> <a href ={props.linkedin}>{props.linkedin}</a></div> 
+          <div> <a href={props.github}>{props.github}</a></div> 
         </div>
  )  
 }
